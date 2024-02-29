@@ -12,7 +12,9 @@
     <!-- -->
 
     <!-- Links to our additional CSS styles -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
     <title>Jill Schep's Resumé</title>
   </head>
@@ -43,14 +45,15 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/Picturejill.png" alt="Portrait of Firstname Lastname" width="2918">
+          <img class="w-100 rounded-circle my-3" src="images/picturejill.png" alt="Portrait of Firstname Lastname" width="2918">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Jill Schep</h1>
-          <h5 class="fst-italic tagline">An enterprising and creative person&nbsp;</h5>
+          <h1 class="fw-bolder sparkle">Jill Schep</h1>
+          <h5 class="fst-italic tagline sparkle
+					 ">An enterprising and creative person&nbsp;</h5>
         </div>
       </header>
 
@@ -69,7 +72,8 @@
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
           -->
-          <section class="my-3 biography-section">
+          <section class="my-3 biography-section sparkle
+						  ">
             <h2>Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
@@ -81,7 +85,7 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/Vanoomedia.png" alt="Company logo" width="1280">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/vanoomedia.png" alt="Company logo" width="1280">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Text writer, Vanoo Media</h4>
@@ -97,25 +101,27 @@
 
               <!-- 2nd item in professional experience -->
               <li class="biography-item row mb-2">
-                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+  <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/Coop.png" alt="Company logo" width="1280">
+    <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/coop.png" alt="Company logo" width="1280">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Supermarket Employee, Supermarket chain</h4>
+                  <h4>Supermarket Employee</h4>
                   <h5>2018 - 2023</h5>
 					    <ul class="biography-details list-unstyled">
                     <li>I worked here as a cashier</li>
+					</ul>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
-                </div>
-              </li>
+                 </div>
+           	   </li>
 
             </ul>
           </section>
 
           <!-- We're done with jobs, let's move on to schools -->
 
-          <section class="my-3 biography-section">
+          <section class="my-3 biography-section sparkle
+						  ">
             <h2>Education</h2>
             <ul class="biography-list list-unstyled">
 
@@ -139,7 +145,7 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/wz.png" alt="School logo" width="1115">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>CSG Willem de Zwijger te Schoonhoven&nbsp;</h4>
@@ -161,7 +167,8 @@
           We now move on to the column with contact details, languages and other skills
           <aside> is also a semantic element.
         -->
-        <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
+        <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside sparkle
+					  ">
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
@@ -202,7 +209,8 @@
 
           <!-- End of contact details, moving on to languages -->
 
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section sparkle
+						  ">
             <h2>Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
